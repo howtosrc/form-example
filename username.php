@@ -1,5 +1,7 @@
 <?php
 
+sleep(2);
+
 $username = trim(@$_POST['username']);
 
 if (empty($username)) {
